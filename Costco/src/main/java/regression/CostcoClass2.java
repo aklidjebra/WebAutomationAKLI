@@ -12,6 +12,7 @@ public class CostcoClass2 extends CommonAPI {
 
 
 
+
     public  void setPharmacy(){
         Pharmacy.click();
     }

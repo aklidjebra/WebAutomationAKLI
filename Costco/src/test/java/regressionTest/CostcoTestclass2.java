@@ -18,6 +18,5 @@ public class CostcoTestclass2 extends CommonAPI {
     }
     @Test
     public void testparmacy(){
-        cosclass2.setPharmacy();
     }
 }
