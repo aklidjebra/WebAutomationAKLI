@@ -8,7 +8,7 @@ public class CostcoClass2 extends CommonAPI {
 
 
     @FindBy(id="Home_Ancillary_3")
-    WebElement Pharmacy;
+     public static  WebElement Pharmacy;
 
 
 
