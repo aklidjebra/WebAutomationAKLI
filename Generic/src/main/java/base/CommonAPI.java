@@ -101,6 +101,7 @@ public class CommonAPI {
      * @return WebDriver webdriver instance for the driver
      * @Author - peoplenTech
      */
+
     public static WebDriver getLocalDriver(String browserName, String platform) {
         if (platform.equalsIgnoreCase("mac") && browserName.equalsIgnoreCase("chrome")) {
             System.setProperty("webdriver.chrome.driver", "../Generic/src/main/resources/drivers/chromedriver");

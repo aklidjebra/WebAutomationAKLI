@@ -6,8 +6,7 @@ import regression.CostcoClass1;
 public class CostcoPage1 extends CostcoClass1 {
 
 
-
-    @Test
+    @Test(priority = 1)
     public void testMethods() throws InterruptedException {
         openPage();
         Thread.sleep(2000);
@@ -15,10 +14,19 @@ public class CostcoPage1 extends CostcoClass1 {
         Thread.sleep(2000);
         click();
         Thread.sleep(2000);
-        storby();
+        //storby();
+
+
+    }
+
+    @Test(priority = 2)
+    public void cart() throws InterruptedException {
+        addtocart();
         Thread.sleep(2000);
-
-
+        change();
+        Thread.sleep(2000);
+        zipcod();
+        Thread.sleep(2000);
 
 
     }

@@ -14,7 +14,8 @@
 
     <test name="CostcoTest Home">
         <classes>
-            <class name="regressionTest.CostcoTestclass2"/>
+            <!--class name="regressionTest.CostcoPage1"/-->
+            <class name="regressionTest.TestClass3"/>
         </classes>
     </test>
 </suite>
