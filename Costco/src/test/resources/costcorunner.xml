@@ -15,7 +15,12 @@
     <test name="CostcoTest Home">
         <classes>
             <!--class name="regressionTest.CostcoPage1"/-->
-            <class name="regressionTest.TestClass3"/>
+            <!--class name="regressionTest.TestClass3"/-->
+            <!--class name="regressionTest.BokenlinTest"/-->
+            <!--class name="regressionTest.PhotoTest"/-->
+            <class name="regressionTest.SignUpTest"/>
+
+
         </classes>
     </test>
 </suite>

@@ -2,6 +2,7 @@ package regression;
 
 import base.CommonAPI;
 import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.Select;
 
 public class CostcoClass1 extends CommonAPI {
 
@@ -17,17 +18,18 @@ public class CostcoClass1 extends CommonAPI {
 
     public void click() {
         driver.findElement(By.id("search-field")).click();
-
     }
 
-    /*public void storby (){
-        driver.findElement(By.xpath("//*[@id=\"accordion-filter_collapse-2\"]/div/a[2]/label/span[1]")).click();
+    public void selectgro (){
+        driver.findElement(By.id("search-dropdown-select")).click();
+        Select select = new Select(driver.findElement(By.id("search-dropdown-select")));
+        select.selectByIndex(1);
 
-        Select select = new Select(driver.findElement(By.id("sort_by")));
-        select.selectByValue("Price (Low to High)");
     }
+    public void click2() {
+        driver.findElement(By.id("search-field")).sendKeys("pasta");
 
-     */
+    }
     public void addtocart() {
         driver.findElement(By.id("cart-d")).click();
     }
