@@ -17,6 +17,7 @@ public class TestClass3 extends CommonAPI {
 
     @BeforeMethod
     public void signbut() {
+
         class3.setSignin();
     }
 
@@ -24,16 +25,17 @@ public class TestClass3 extends CommonAPI {
     public void usernameinput() {
         class3.setClickin("akliakliakli");
     }
+
     @Test(priority = 2)
     public void passwoinput() {
         class3.setClickin("akliakliakli");
         class3.setInputpassw("passpasspassword");
 
+
     }
     @Test(priority = 3)
     public void signbutton() {
         class3.setClickin("akliakliakli");
-
         class3.setInputpassw("passpasspassword");
         class3.setsignbutt();
     }

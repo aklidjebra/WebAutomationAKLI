@@ -20,8 +20,15 @@ WebElement creataccoun;
 @FindBy(id="logonPassword")
     WebElement inpupass;
 
+@FindBy(id="logonPasswordVerify")
+   WebElement passconf;
+
+@FindBy (id="register_userField2")
+    WebElement membreship;
+
 
 public void signup(){
+
     regester.click();
 }
 
@@ -36,17 +43,20 @@ public void inpemail(String email){
 
     }
 
-
-
-
     }
     public void setinputpass(String password){
     inpupass.sendKeys(password);
 
 
     }
+    public void setPassconf(String passwordconf){
+    passconf.sendKeys(passwordconf);
 
+    }
 
+    public void setMembreship(String num){
+    membreship.sendKeys(num);
+    }
 
 
 }

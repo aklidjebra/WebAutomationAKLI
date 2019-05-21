@@ -22,7 +22,6 @@ public class ConnectToSqlDB {
         ism.close();
         return prop;
     }
-
     public static Connection connectToSqlDatabase() throws IOException, SQLException, ClassNotFoundException {
         Properties prop = loadProperties();
         String driverClass = prop.getProperty("MYSQLJDBC.driver");

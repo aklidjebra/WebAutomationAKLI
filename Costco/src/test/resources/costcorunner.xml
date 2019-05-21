@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="TdBank Automation Script " parallel="methods" thread-count="4">
+<suite name="Costco Automation Script " parallel="methods" thread-count="4">
 
     <parameter name="platform" value="mac"/>
     <parameter name="useCloudEnv" value="false"/>
@@ -18,8 +18,10 @@
             <!--class name="regressionTest.TestClass3"/-->
             <!--class name="regressionTest.BokenlinTest"/-->
             <!--class name="regressionTest.PhotoTest"/-->
-            <class name="regressionTest.SignUpTest"/>
-
+            <!--class name="regressionTest.SignUpTest"/-->
+            <!--class name="regressionTest.CommonMethods"/-->
+            <!--class name="regressionTest.TestClass4"/-->
+            <class name="regressionTest.MembershipTest"/>
 
         </classes>
     </test>

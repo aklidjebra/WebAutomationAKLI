@@ -23,6 +23,8 @@ public class SignUpTest extends CommonAPI {
         sigupobj.setCreataccoun();
         sigupobj.inpemail("emailemaileamil");
         sigupobj.setinputpass("passpasspass");
+        sigupobj.setPassconf("passpasspass");
+        sigupobj.setMembreship("123456789");
 
     }
    @Test(priority = 2)
@@ -30,11 +32,23 @@ public class SignUpTest extends CommonAPI {
         sigupobj.signup();
         sigupobj.setCreataccoun();
         sigupobj.inpemail("emaipassemailpasssss");
-        sigupobj.setinputpass("passpasspass");
-
+        sigupobj.setinputpass("asdfghjkiuytr");
+        sigupobj.setPassconf("asdfghjkiuytr");
+        sigupobj.setMembreship("12345678");
 
 
    }
+    @Test(priority = 3)
+    public void singupuser2(){
+        sigupobj.signup();
+        sigupobj.setCreataccoun();
+        sigupobj.inpemail("masimenadroshakli");
+        sigupobj.setinputpass("akbouakbouakbou");
+        sigupobj.setPassconf("akbouakbouakbou");
+        sigupobj.setMembreship("12");
+
+
+    }
 
 
 
